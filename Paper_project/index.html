@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Circles</title>
+  <script type="text/javascript" src="paper-full.js"></script>
+  <link rel="stylesheet" type="text/css" href="circles.css">
+  <script type="text/paperscript" canvas="myCanvas">
+    function onKeyDown(event) {
+  new Path.Circle(new Point(100,100), 10).fillColor = "orange";
+  }
+  </script>
+</head>
+<body>
+  <canvas id="myCanvas" resize></canvas>
+</body>
+</html>
