@@ -12,12 +12,12 @@ slider.addEventListener('mousedown', (e) => {
 
 slider.addEventListener('mouseleave', () => {
   isDown = false;
-    slider.classList.remove('active');
+  slider.classList.remove('active');
 });
 
 slider.addEventListener('mouseup', () => {
   isDown = false;
-    slider.classList.remove('active');
+  slider.classList.remove('active');
 });
 
 slider.addEventListener('mousemove', (e) => {
